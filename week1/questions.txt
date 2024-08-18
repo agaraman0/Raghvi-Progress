@@ -1,0 +1,4 @@
+1. Learn About Internet
+2. What is Space Complexity and Time Complexity
+3. Learn About what is bash script.
+4. Write a Bash Script which can print details of a Computer
