@@ -1,0 +1,7 @@
+A Bash script is a text file which contain commands that are executed by the Bash shell.The Bash shell is a command-line interpreter that provides interface to interact with unix-based operating system like linux 
+First line of bash script start from '#!/bin/bash'.
+Bash script has commands like terminal.
+Bash script can use loops and conditions like if else.
+# is used to comment which means that line will not be executed
+.sh is used to create a file for example bash.sh
+
