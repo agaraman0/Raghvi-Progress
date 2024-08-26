@@ -1,0 +1,13 @@
+Space Complexity and Time Complexity used to analysis of algorithms.It tells about the effecieny of algorithm
+
+Time Complexity- Relation between input size and running time
+time complexity is also the number of operation done by input
+as we increase the input size the time complexity will also increase
+three types to find time complexity:
+1) Best case(minimum time)omega
+2) Average case theta
+3) Worst case(maximum time) O
+when we want to solve the question we always take worst case
+
+Space Complexity- a codes space complexity explain that how much memory takes and it depends on the how much variable are store in memory because of that code.
+In arrays space complexity will be depend on input size.

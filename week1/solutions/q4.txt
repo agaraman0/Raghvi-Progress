@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# operating system 
+echo "Operating System:"
+uname -o
+echo ""
+
+# hostname
+echo "Hostname:"
+hostname
+echo ""
+
+#  kernel version
+echo "Kernel Version:"
+uname -r
+echo ""
+
+# CPU information
+echo "CPU Information:"
+lscpu | grep "Model name\|Architecture\|CPU(s)\|Thread(s) per core\|Core(s) per socket\|Socket(s)"
+echo ""
+
+#  total and free memory
+echo "Memory Usage (in MB):"
+free -m | awk 'NR==2{printf "Total: %s MB\nUsed: %s MB\nFree: %s MB\n", $2, $3, $4}'
+echo ""
+
+# uptime
+echo "System Uptime:"
+uptime -p
+echo ""
+
+#  network interfaces and IP addresses
+echo "Network Interfaces:"
+ip -brief address show | grep -v "LOOPBACK"
+echo ""
+

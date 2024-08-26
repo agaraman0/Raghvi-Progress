@@ -1,0 +1,6 @@
+Internet is a very large network which connects computers all over the world.It allow to share information around the world.
+The internet uses IP address. If any device is connected to internet it has a unique IP address.Internet pass.
+Internet is public service so privacy of user can be a issue so encryption is used to save the information of user.
+Internet uses some protocols like HTTP(Hyper Text Transfer Protocol),PPP(Point-to-Point Protocol).
+World Wide WEb the collection of web pages on internet which can be found by their URLs
+
