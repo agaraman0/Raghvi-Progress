@@ -1,0 +1,4 @@
+document.getElementById("changeTextButton").addEventListener("click", function() {
+const moreInfo = document.getElementById("moreInfo");
+    moreInfo.classList.toggle("hidden"); 
+
