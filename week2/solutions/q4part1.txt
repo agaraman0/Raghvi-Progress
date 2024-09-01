@@ -1,0 +1,25 @@
+# code block A
+outer loop of i will run "n"times
+and inner of j will also run n times soo
+both are depend on each other then 
+iteration numeber=n*n=n^2
+time compl.=o(n^2)
+
+# code block B
+outer loop of i will run "n"time 
+inner loop of j will run i times so iteration is sum of n-1 numbers
+total iteration=n*(n-1)/2
+time compl.=o(n^2)
+we can ignore 1/2 by o notation
+
+# code block C
+ loop of i will run n times
+ loop of j will run n times 
+this time both are independent loops
+so
+n+n=2n 
+time complexity=o(n)
+can ignore 2 by o notation
+
+ A and B has same time complexity which is greater than C
+
